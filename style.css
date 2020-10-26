@@ -1,8 +1,52 @@
+
 *{
 	margin: 0;
 	padding:0;
+	font-family: arial;	
 }
 
-#topnav {
-	float: right;
+a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #5F6368;
 }
+
+#top-list{
+	font-size: 14px;
+	text-align: center;
+}
+
+#top-list li{
+	display: inline;
+	
+}
+
+.center {
+	margin-top: 15%;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width:250px; 
+}
+
+.button{
+	font-size: 14px;
+	text-decoration: none;
+	color: #5F6368;
+	padding: 10px 20px;
+	background-color:#f2f2f2;
+	border-radius: 5px;
+}
+
+#b-list{
+	margin-top: 250px;
+	text-align: center;
+
+ }
+
+#b-list li{
+	
+	display: inline;
+	
+}
+
