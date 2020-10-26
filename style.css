@@ -11,15 +11,19 @@ a{
 	color: #5F6368;
 }
 
-#top-list{
-	font-size: 14px;
-	text-align: center;
-}
-
-#top-list li{
+li{
 	display: inline;
 	
 }
+
+#top-list-left{
+	text-align: left;
+}
+
+#top-list-right{
+	text-align: right;
+}
+
 
 .center {
 	margin-top: 15%;
@@ -29,26 +33,23 @@ a{
   	width:250px; 
 }
 
-.button{
-	font-size: 14px;
+#buttons{
 	text-decoration: none;
-	color: #5F6368;
 	padding: 10px 20px;
 	background-color:#f2f2f2;
 	border-radius: 5px;
-	margin-right: 10px;
-
+	text-align: center;
 }
 
-#b-list{
+#b-list-left{
 	margin-top: 250px;
-	text-align: center;
+	text-align: left;
 
  }
 
-#b-list li{
-	
-	display: inline;
-	
-}
+#b-list-right{
+	margin-top: 250px;
+	text-align: right;
+
+ }
 
