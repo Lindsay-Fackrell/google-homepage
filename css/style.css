@@ -1,0 +1,61 @@
+
+*{
+	margin: 0;
+	padding:0;
+	font-family: arial;	
+}
+
+a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #5F6368;
+}
+
+nav{
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+
+}
+
+.left-col li{
+	background-color: #e65bc7;
+	list-style-type: none;
+	align-items: center;
+}
+
+.right-col li{
+	background-color: #828ef5;
+	align-self: flex-end;
+	list-style-type: none;
+}
+
+.logo{
+	padding-top: 8em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+	background-color: #82f59f;
+
+}
+
+.form-container{
+	background-color: #eb892d;
+}
+
+
+.button{
+	font-size: 14px;
+	text-decoration: none;
+	color: #ff0000;
+	padding: 10px 20px;
+	background-color:#f2f2f2;
+	border-radius: 5px;
+	margin-right: 10px;
+	display:inline-block;
+
+}
+
+footer{
+	background-color: aqua;
+}

@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="/Users/lindsayfackrell/the-odin-project/google-homepage/style.css">
-	<title>Google</title>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	
+	<nav class="top">
+			<ul class="left-col">
+				<li><a href="#">About</a>
+				<li><a href="#">Store</a>
+			</ul>			
+			<ul class="right-col">	
+				<li><a href="#">Gmail</a>
+				<li><a href="#">Images</a>
+			</ul>	
+	</nav>
+	
 	<header>
-		<ul id="top-list">
-			<li><a href="#">About</a>
-			<li><a href="#">Store</a>
-			<li><a href="#">Gmail</a>
-			<li><a href="#">Images</a>
-		</ul>	
-		<section>
-			<img src="google-logo.png" alt="google logo" class="center">
-			<div class="search-box">
-			<img src="vote-button.png" alt="voter campagn button">
-			<a href="#" class="button">Google Search</a>
-			<a href="#" class="button">I'm Feeling Lucky</a>
-		</section>
+		<img src="images/google-logo.png" alt="google logo" class="logo">
 	</header>
+	
+	<div class="form-container">
+		<img src="images/vote-button.png" alt="voter campagn button">
+		<input type="button" value="Google Search">
+		<input type="button" value="I'm Feeling Lucky">
+	</div>	
+	
 	<footer>
-		<ul id="b-list">
+		<ul>
 			<li><a href="#">Advertising</a>
 			<li><a href="#">Business</a>
 			<li><a href="#">How Search Works</a>
