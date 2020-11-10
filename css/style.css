@@ -12,21 +12,31 @@ a{
 }
 
 nav{
-	display: grid;
-	grid-template-columns: repeat(2, 50%);
+	display: flex;
+	/*display: grid;
+	grid-template-columns: repeat(2, 50%);*/
 
 }
-
-.left-col li{
+.left-col{
 	background-color: #e65bc7;
+	width:50%;
+	padding-left: 3rem;
+}
+.left-col li{
 	list-style-type: none;
-	align-items: center;
+	display: inline-block;
+	padding: 1em;
+}
+
+.right-col{
+	background-color: #828ef5;
+	width: 50%;
 }
 
 .right-col li{
-	background-color: #828ef5;
-	align-self: flex-end;
 	list-style-type: none;
+	display: inline-block;
+	padding: 1em;
 }
 
 .logo{
