@@ -57,26 +57,26 @@ input[type="text"] {
 /*! BUTTONS */
 .container{
 	display:grid;
-	grid-template-columns: repeat(4, 25%);
-	background-color: aqua;	
+	grid-template-columns: repeat(4, 50%);
+	
 }
 
 .left-button{
 	padding-top: 2em;
-	background-color: rgb(10, 121, 121);
+	padding-left: 80%;
+	
 }
 
 .right-button{
 	padding-top: 2em;
-	background-color: rgb(124, 218, 62);
+	padding-left: 1%;
 }
 
 button{
     background-color: rgb(227, 228, 233);
     border: none;
 	width: 130px;
-	height: 25px; 
-	padding: 2em;
+	height: 40px; 
     border-radius: 0.5em;
 	cursor: pointer;
 }
